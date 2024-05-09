@@ -83,7 +83,7 @@ hand-sign-data-collection/
 
 Watch a demo video showcasing how to use this project to collect hand sign language data and extract hand keypoints:
 
-[![Demo Video](https://youtube.com/shorts/F_BdaFYt7YE?si=0v-ONrf4nGR5brnO)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+[![Demo Video](https://img.youtube.com/vi/F_BdaFYt7YE/0.jpg)](https://www.youtube.com/watch?v=F_BdaFYt7YE)
 
 ## 🤝 Contributing
 
