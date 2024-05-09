@@ -74,7 +74,7 @@ hand-sign-data-collection/
 - `hand_sign_data/`: Main directory for storing recorded videos and extracted data.
   - `front/`: Videos captured from the front camera perspective.
   - `back/`: Videos captured from the back camera perspective.
-- `create_dataframe.py`: Script to create a DataFrame (`data.csv`) from collected video paths.
+- `create_dataframe.py`: Script to create a DataFrame (`data_front.csv`) and (`data_back.csv`) from collected video paths.
 - `generate_npy.py`: Script to process videos and extract hand keypoints as numpy files (.npy).
 - `hand_sign_data_collection.py`: Main script to run the hand sign data collection application.
 - `data_front.csv`, `data_back.csv`: CSV files containing video paths for each camera perspective.
