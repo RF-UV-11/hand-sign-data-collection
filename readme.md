@@ -8,7 +8,7 @@ This Python application facilitates the collection of hand sign language data us
 
 - **Simultaneous Video Recording**: Captures hand sign videos from two different camera perspectives (front and back) simultaneously.
 - **Graphical User Interface (GUI)**: Provides a user-friendly interface with buttons representing alphanumeric characters for initiating video recordings.
-- **Automatic Data Organization**: Organizes recorded videos into directories based on camera perspectives (`front` for web and `back` for smart glasses) and button presses.
+- **Automatic Data Organization**: Organizes recorded videos into directories based on camera perspectives ( `front` for web and `back` for smart glasses ) and button presses.
 - **Hand Keypoint Extraction**: Utilizes the MediaPipe Hands model to detect and extract hand keypoints (x, y, z coordinates) from recorded videos.
 - **Data Processing**: Converts extracted hand keypoints into numpy files (.npy) for each video frame, allowing for further analysis or model training.
 
@@ -40,7 +40,7 @@ This Python application facilitates the collection of hand sign language data us
 
 2. **Graphical User Interface (GUI):**
    - Click on the buttons (letters/digits) in the GUI to start recording hand sign videos.
-   - Videos are saved in the `hand_sign_data` directory, categorized by camera perspective (`front` or `back`) and button pressed.
+   - Videos are saved in the `hand_sign_data` directory, categorized by camera perspective `front` or `back` and button pressed.
 
 3. **Extract Hand Keypoints:**
    - After collecting videos, use `generate_npy.py` to process and extract hand keypoints from recorded videos.
@@ -74,7 +74,7 @@ hand-sign-data-collection/
 - `hand_sign_data/`: Main directory for storing recorded videos and extracted data.
   - `front/`: Videos captured from the front camera perspective.
   - `back/`: Videos captured from the back camera perspective.
-- `create_dataframe.py`: Script to create a DataFrame (`data_front.csv`) and (`data_back.csv`) from collected video paths.
+- `create_dataframe.py`: Script to create a DataFrame `data_front.csv` and `data_back.csv` from collected video paths.
 - `generate_npy.py`: Script to process videos and extract hand keypoints as numpy files (.npy).
 - `hand_sign_data_collection.py`: Main script to run the hand sign data collection application.
 - `data_front.csv`, `data_back.csv`: CSV files containing video paths for each camera perspective.
