@@ -77,7 +77,7 @@ hand-sign-data-collection/
 - `create_dataframe.py`: Script to create a DataFrame (`data.csv`) from collected video paths.
 - `generate_npy.py`: Script to process videos and extract hand keypoints as numpy files (.npy).
 - `hand_sign_data_collection.py`: Main script to run the hand sign data collection application.
-- `data_camera1.csv`, `data_camera2.csv`: CSV files containing video paths for each camera perspective.
+- `data_front.csv`, `data_back.csv`: CSV files containing video paths for each camera perspective.
 
 ## 🤝 Contributing
 
