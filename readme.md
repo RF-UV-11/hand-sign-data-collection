@@ -79,6 +79,12 @@ hand-sign-data-collection/
 - `hand_sign_data_collection.py`: Main script to run the hand sign data collection application.
 - `data_front.csv`, `data_back.csv`: CSV files containing video paths for each camera perspective.
 
+## 📹 Demo Video
+
+Watch a demo video showcasing how to use this project to collect hand sign language data and extract hand keypoints:
+
+[![Demo Video](https://youtube.com/shorts/F_BdaFYt7YE?si=0v-ONrf4nGR5brnO)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for enhancements, please feel free to open an issue or submit a pull request. Here are a few ways you can contribute:
